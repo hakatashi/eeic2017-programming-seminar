@@ -6,7 +6,6 @@ int is_prime(int);
 
 int main() {
 	int i, j, is_found;
-	double ret = 1.0f, pi;
 
 	for (i = 4; i <= 1000; i += 2) {
 		is_found = 0;
