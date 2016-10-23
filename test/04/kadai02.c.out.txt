@@ -1,0 +1,10 @@
+0 is odd
+1 is even
+2 is odd
+3 is odd
+4 is even
+5 is odd
+6 is even
+7 is even
+8 is odd
+9 is even
