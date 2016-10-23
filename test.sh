@@ -29,6 +29,8 @@ testKadaiScripts() {
       expected=`cat "$headfile"`
       assertTrue "<${result:0:1000}...> did not head with <$expected>" "[[ '$result' == '$expected'* ]]"
     fi
+
+    rm temp*
   done
 }
 
