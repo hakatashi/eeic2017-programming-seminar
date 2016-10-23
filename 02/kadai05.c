@@ -2,7 +2,7 @@
 
 int is_prime(int);
 
-int main() {
+void main() {
 	int i;
 	for (i = 2; i <= 1000; i++) {
 		if (is_prime(i) == 1) {
