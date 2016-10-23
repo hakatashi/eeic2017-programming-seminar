@@ -1,0 +1,10 @@
+language: generic
+
+os:
+  - osx
+
+install:
+  - curl -L "https://github.com/kward/shunit2/archive/master.tar.gz" | tar zx
+
+script:
+  - bash test.sh
