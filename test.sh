@@ -8,7 +8,7 @@ testKadaiScripts() {
   for i in **/*.c; do
     echo "Testing $i..."
 
-    gcc -Wall "$i" -o temp
+    gcc -Wall "$i" -o temp -lm
 
     infile="test/$i.in.txt"
     outfile="test/$i.out.txt"
