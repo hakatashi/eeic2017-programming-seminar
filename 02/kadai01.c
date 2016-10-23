@@ -3,7 +3,7 @@
 
 int main() {
 	char c;
-	int i;
+	int i = 0;
 
 	while (i++, (c = getchar()) != EOF) {
 		if (i % 2 == 0) {
