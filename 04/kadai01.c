@@ -7,7 +7,7 @@
 */
 double harmonic(int n) {
   int i;
-  double sum;
+  double sum = 0.0;
 
   for (i = 1; i <= n; i++) {
     sum += 1.0 / (double)i;
@@ -17,7 +17,6 @@ double harmonic(int n) {
 }
 
 int main() {
-  double sum = 0;
   int i;
   int upto = 5;
   double log_val;
