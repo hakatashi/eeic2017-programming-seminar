@@ -1,5 +1,3 @@
-f
-b
-h
-H
- 
+foo
+Hello,
+HOGE
