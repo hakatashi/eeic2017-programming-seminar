@@ -30,6 +30,10 @@ testKadaiScripts() {
       assertTrue "<${result:0:1000}...> did not head with <$expected>" "[[ '$result' == '$expected'* ]]"
     fi
 
+    if test ! -e "$outfile" && test ! -e "$headfile"; then
+      echo "WARNING: $i has no spec files"
+    fi
+
     rm temp*
   done
 }
