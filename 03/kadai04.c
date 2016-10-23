@@ -3,9 +3,9 @@
 
 void factorize(int, int);
 
-int main() {
+void main() {
 	int n = 123456789;
-	printf("Prime factor of %d",n);
+	printf("Prime factor of %d\n", n);
 	printf("%d = ", n);
 	factorize(n, 2);
 }
