@@ -8,3 +8,6 @@ install:
 
 script:
   - bash test.sh
+
+notifications:
+  webhooks: http://webhook.hakatashi.com/travis
