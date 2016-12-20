@@ -2,6 +2,7 @@
 *.stackdump
 *.txt
 *.zip
+*.pdf
 
 shunit2-master
 !test/**/*.txt
