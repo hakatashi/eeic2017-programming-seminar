@@ -64,7 +64,8 @@ int main(int argc, char **argv) {
 	fclose(file);
 
 	fgets(input, NAME_MAX, stdin);
-	strtok(input, "\n");
+	strtok(input, '\n');
+
 
 	input_hash = hash(input) % HASH_SIZE;
 	temp_person = members[input_hash];
